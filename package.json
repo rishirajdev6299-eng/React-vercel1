@@ -12,7 +12,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "node src/server.js",
+    "install": "json-server --watch db.json --host 0.0.0.0 --port $PORT",
+    "client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
