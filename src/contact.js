@@ -1,7 +1,7 @@
 import React from 'react';
-import usePhone from './hook/usePhone';
+//import usePhone from './hook/usePhone';
 function Contact() {
-    const contacts = usePhone();
+   // const contacts = usePhone();
     return ( 
         <>
     <nav class="navbar bg-body-tertiary">
@@ -20,7 +20,7 @@ function Contact() {
             <p>Or call us at (123) 456-7890</p>
         </div>
 
-         <div>
+         {/* <div>
       <h1>Contact List</h1>
 
       {contacts.map((contact) => (
@@ -30,7 +30,7 @@ function Contact() {
           <hr />
         </div>
       ))}
-    </div>
+    </div> */}
         </>
     );
 }

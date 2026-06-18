@@ -1,16 +1,16 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-function usePhone() {
+// function usePhone() {
 
-  const [contacts, setContacts] = useState([]);
+//   const [contacts, setContacts] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3001/contacts")
-      .then((res) => res.json())
-      .then((data) => setContacts(data));
-  }, []);
+//   useEffect(() => {
+//     fetch("http://localhost:3001/contacts")
+//       .then((res) => res.json())
+//       // .then((data) => setContacts(data));
+//   }, []);
 
-  return contacts;
-}
+//   return contacts;
+// }
 
-export default usePhone;
+// export default usePhone;

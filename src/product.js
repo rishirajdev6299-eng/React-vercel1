@@ -1,7 +1,7 @@
 import React from 'react';
-import usePhone from './hook/usePhone';
+//import usePhone from './hook/usePhone';
 function Product() {
-    const contacts = usePhone();
+    // const contacts = usePhone();
     return (
         <>
      <nav class="navbar bg-body-tertiary">
@@ -50,7 +50,7 @@ function Product() {
     </tbody>
 </table>
         </div>
-          <div>
+          {/* <div>
       <h1>Contact List</h1>
 
       {contacts.map((contact) => (
@@ -60,7 +60,7 @@ function Product() {
           <hr />
         </div>
       ))}
-    </div>
+    </div> */}
         </>
     );
 }
